@@ -37,7 +37,7 @@ export function computeResults(input, state) {
       })
     }
 
-    const searchURL = 'https://www.google.com/search?&ie=UTF-8&q=' +
+    const searchURL = 'https://onbibi.com/search?q=' +
       encodeURIComponent(input)
     results.push({
       type: constants.RESULT_TYPE_SEARCH,
